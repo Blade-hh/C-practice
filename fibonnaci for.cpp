@@ -5,7 +5,7 @@ int a,f=0,s=1,n;
 cout<<"Enter = ";
 cin>>a;
 
-cout<<f<<endl<<s;
+cout<<f<<endl<<s<<endl;
 for(int i=3;i<=a;i++){
         n=f+s;
         f=s;

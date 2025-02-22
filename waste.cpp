@@ -11,7 +11,6 @@ while(a>0){
     int r=a%10;
     if(r%2==0){
         c=r;
-
     }
 
 
