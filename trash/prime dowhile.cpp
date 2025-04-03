@@ -3,10 +3,10 @@ using namespace std;
 int main(){
 
     int num;
-    int i=2;
+    int i=1;
     bool isprime=true;
-    cout<<"Enter a no. = ";
-    cin>>num;
+    //cout<<"Enter a no. = ";
+    //cin>>num;
 
     do{
 
@@ -15,7 +15,7 @@ int main(){
         isprime=false;
         break;
      }
-    }while(i*i<=num);
+    }while(i<=20);
 
     if(isprime){
         cout<<"Prime";

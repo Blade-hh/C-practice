@@ -7,10 +7,10 @@ int main(){
     cin>>n;
 
     while(num<=n){
-
+            if(num%2==0){
             sum+=num;
-            num++;
-
+           }
+           num++;
     }
 
     cout<<sum;
